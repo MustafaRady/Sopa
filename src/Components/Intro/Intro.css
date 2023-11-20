@@ -1,0 +1,86 @@
+.Intro-container{
+    display: flex;
+    margin: 20px auto;
+    
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Intro-content{
+    border-radius: 24px;
+    background: var(--secondary-colors-white-smoke, #F2F2F2);
+    display: flex;
+    margin: auto;
+    max-width: 70%;
+    padding: 4% 10%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+@media screen and (max-width:1000px){
+    .Intro-content{
+        padding:4% 10%;
+    }
+    
+}
+
+.Intro-title{
+    color: var(--primary-colors-black, #02021D);
+    text-align: center;
+    padding: 4% 12%;
+    font-family: Noto Serif Lao;
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; 
+}
+
+@media screen and ( max-width:1000px){
+    .Intro-title{
+        font-size: 1.6rem;
+    }
+}
+
+
+.Intro-logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+
+@media screen and (max-width:1000px){
+    .Intro-logos{
+        justify-content: center;
+    }
+}
+
+
+.Intro-logo-typo{
+    color: var(--secondary-colors-steel, #75869C);
+    text-align: center;
+
+    /* Headers/T2 */
+    font-family: Noto Serif Lao;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px; /* 112.121% */
+}
+
+.Intro-logo-typo-2{
+    color: var(--secondary-colors-steel, #75869C);
+    text-align: center;
+
+    /* Body Text/Regular */
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}

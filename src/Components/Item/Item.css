@@ -1,0 +1,137 @@
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.row{
+    gap:34px;
+}
+
+.column{
+    flex:33%;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gender-group{
+    color: var(--primary-colors-black, #02021D);
+
+    /* Body Text/Regular */
+    font-family: "Rubik";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+}
+
+.margin-top{
+    margin-top: 3%;
+}
+.image-container{
+    display: flex;
+    width: 100%;
+}
+
+.image-container img{
+    width: inherit;
+}
+.price{
+    width: 33%;
+    color: var(--primary-colors-black, #02021D);
+
+    /* Body Text/Regular */
+    font-family: "Rubik";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+}
+
+.width-66{
+    width: 66%;
+}
+
+.width-33{
+    width: 33%;
+}
+
+
+
+.start{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.add-to-bag-group{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 100%;
+}
+
+
+.add-to-bag-button{
+    display: flex;
+   cursor: pointer;
+    padding: 5% 0%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 32px;
+    background: var(--primary-colors-black, #02021D);
+}
+
+.direction{
+    flex-direction: row;
+}
+
+.add-to-bag-button{
+    color: var(--secondary-colors-white, #FFF);
+    text-align: center;
+
+    /* Body Text/Regular */
+    font-family: "Rubik";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+
+.add-to-bag-details{
+    display: flex;
+    color: var(--primary-colors-black, #02021D);
+    
+
+    /* Body Text/Regular */
+    font-family: "Rubik";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 34px;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    .direction{
+        flex-direction: column;
+    }
+}

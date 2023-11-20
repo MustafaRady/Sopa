@@ -1,0 +1,159 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@300&display=swap');
+
+.sale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: black;
+    color:white;
+}
+
+.sale-content{
+    font-family:"Rubik",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.navbar{
+    width: 80%;
+    padding-top: 30px;
+
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.navbar-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+
+.menu{
+    display: none;
+    align-items: end;
+    justify-content: end;
+    gap: 24px;
+
+}
+
+@media screen and (max-width:1000px) {
+    .navbar-group{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+}
+
+.nav-item{
+        color: var(--primary-colors-black, #02021D);
+        text-decoration: none;
+        font-family:"Rubik",sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 400;
+        line-height: 22px;
+}
+
+
+
+
+
+.no-animation{
+    animation: none;
+}
+.nav-item-special{
+    display: flex;
+    padding: 8px 12px;
+    align-items: flex-start;
+    text-decoration: none;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+    border: 1px solid var(--other-colors-yellowish-green, #81D376);
+    background: var(--secondary-colors-white, #FFF);
+
+    color: var(--other-colors-yellowish-green, #81D376);
+    border: 1px solid #81D376;
+    border-radius: 24px;
+    /* Body Text/Regular */
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+
+/* Menu.css */
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1;
+    padding-top: 60px;
+  }
+  
+  .menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-item {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: #ddd;
+  }
+  
+  .menu-item-special {
+    padding: 15px;
+    text-align: center;
+    background-color: #ff5733;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+  }
+  
+  .menu-item-special:hover {
+    background-color: #ff7845;
+  }
+  
+  .open {
+    width: 250px;
+  }
+  
+  /* Adjust styles as needed */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }

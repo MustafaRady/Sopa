@@ -1,0 +1,46 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: 1px solid var(--other-colors-dodger-blue, #3184FF);
+    background: var(--secondary-colors-white, #FFF);
+  }
+  
+  .input-group label {
+    position: absolute;
+    color: var(--secondary-colors-steel, #75869C);
+    top: 0;
+    left: 10%;
+    pointer-events: none;
+    padding: 10px;
+    transition: 0.2s ease;
+  }
+  
+  .input-group input:focus + label, input:valid + label {
+    animation: animation 1s ease forwards;
+    background-color: #ffffff;
+    padding: 5px;
+  }
+  
+
+  @keyframes animation {
+    
+    0%{
+        top:-22%;
+        left: -100px;
+    }
+    100%{
+        top: -22%;
+        left: 10%;
+    }
+  }

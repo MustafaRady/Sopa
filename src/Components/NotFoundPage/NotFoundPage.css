@@ -1,0 +1,16 @@
+.notf_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 7%;
+    color: var(--primary-colors-black, #02021D);
+    text-align: center;
+
+    /* Headers/T3 */
+    font-family: Noto Serif Lao;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 114.286% */
+}

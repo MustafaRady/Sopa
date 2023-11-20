@@ -1,0 +1,147 @@
+.MD000-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin:110px auto;
+}
+.MD000-image-container{
+    display: flex;
+    width: 100%;
+}
+
+.MD000-image-container img{
+    width: inherit;
+}
+
+.MD000-heading{
+    width: 70%;
+    color: var(--primary-colors-black, #02021D);
+    text-align: center;
+
+    /* Body Text/Medium */
+    font-family: "Rubik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px; /* 120% */
+    
+
+}
+
+.MD000-container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin:110px auto;
+}
+
+.MD000-start{
+    align-items: start;
+    justify-content: start;
+}
+
+.MD000-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.MD000-brands{
+    padding : 10% 8%;
+    background-color: aqua;
+}
+
+.MD000-heading-2{
+    width: 30%;
+    color: var(--primary-colors-black, #02021D);
+    
+
+    /* Body Text/Medium */
+    font-family: "Rubik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px; /* 120% */
+}
+
+.MD000-bg-grey{
+    background: var(--secondary-colors-white-smoke, #F2F2F2);
+}
+
+
+.MD000-brand-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap:80px;
+}
+
+
+.MD000-esquire{
+    color: var(--secondary-colors-steel, #75869C);
+    text-align: center;
+
+    /* Headers/T2 */
+    font-family: Noto Serif Lao;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px; /* 112.121% */
+}
+
+.MD000-HON{
+    color: var(--secondary-colors-steel, #75869C);
+    text-align: center;
+
+    /* Body Text/Regular */
+    font-family: "Rubik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+
+.MD000-bg-yellow{
+    border-radius: 24px;
+    background: var(--other-colors-orangy-yellow, #FDF9E3);
+}
+
+.MD000-container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin:110px auto;
+}
+
+.MD000-heading-3{
+    color: var(--primary-colors-black, #02021D);
+    text-align: center;
+
+    /* Headers/T5 */
+    font-family: Noto Serif Lao;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 115% */
+}
+
+.MD000-container-grid{
+    display: grid;
+    margin-top: 3%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    
+    width: 100%;
+}
+
+.grid-row-span-2{
+    grid-row: span 2;
+}

@@ -1,0 +1,39 @@
+.mydict{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid rgb(204, 201, 201);
+  justify-content: center;
+}
+
+.radio__input{
+  display: none !important;
+}
+
+.radio__label{
+  display: flex ;
+  color: var(--primary-colors-black, #02021D);
+  text-align: center;
+  
+  /* Body Text/Medium */
+  font-family: Rubik;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 137.5% */
+  border: 3px solid transparent;
+  transition: border-color 0.3s ease;
+  border-radius: 10px;
+  padding: 2% ;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  cursor: pointer;
+}
+
+.radio__label:hover{
+  border-color: black;
+}
+
+

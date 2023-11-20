@@ -1,0 +1,102 @@
+.hp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10% 0%;
+    background: var(--secondary-colors-white, #FFF);
+    
+}
+
+.hp-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 40px;
+    width: 80%;
+}
+
+.hp-content .title-question{
+    color: var(--primary-colors-black, #02021D);
+    text-align: center;
+
+    /* Headers/T3 */
+    font-family: Noto Serif Lao;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 114.286% */
+}
+
+.links-container{
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding:2% 0%;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    width: 100%;
+}
+
+.link-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border-radius: 16px;
+    border: 1px solid var(--grey-colors-grey-300, #E3E5ED);
+    background: var(--secondary-colors-white, #FFF);
+    
+}
+.link-card .link-img{
+    width: 100%;
+}
+
+.linkDetail-group{
+    width: 100%;
+    display: flex;
+    gap:6px;
+    flex-direction: row;
+    padding :0% 0% 2% 6% ;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sentence{
+    color: var(--primary-colors-black, #02021D);
+
+/* Body Text/Regular */
+    font-family: "Rubik";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+
+.subtitle-question{
+    color: var(--primary-colors-black, #02021D);
+
+/* Headers/T6 */
+font-family: "Rubik";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+}
+
+.hp-content .contact{
+    color: var(--primary-colors-black, #02021D);
+
+    /* Body Text/Regular */
+    font-family: "Rubik";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+}
